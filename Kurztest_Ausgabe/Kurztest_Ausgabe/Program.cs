@@ -11,13 +11,13 @@ namespace Kurztest_Ausgabe
         {
             for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine(Berechne(i));
+                Console.WriteLine(Berechnen(i));
 
             }
         }
 
         
-        public static int Berechne(int n)
+        public static int Berechnen(int n)
         {
             int a = 0;
             int b = 1;
